@@ -1,0 +1,18 @@
+@import "../../styles.scss";
+
+@include keyframes(pulsate) {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@mixin pulsate {
+  @include animate(pulsate, 1.2s, infinite, normal);
+}
+
+/****Nav bar styles****/
+.under-score {
+  @include pulsate;
+}
