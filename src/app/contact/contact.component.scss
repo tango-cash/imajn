@@ -1,0 +1,126 @@
+#contact-us {
+  width: 50%;
+  background-color: #f4f4f4;
+	margin: auto;
+	padding-top: 20px;
+	border-radius: 4px;
+
+	form {
+		padding: 0 10px 20px 20px;
+
+		p { margin: 10px 70px 0 70px; }
+
+		label {
+			display: block;
+			font-size: 1.2em;
+		}
+
+		input[type=text], input[type=email], textarea {
+			width: 100%;
+			margin-top: 8px;
+			padding: 8px 12px 8px 12px;
+			border: 1px solid transparent;
+			border-radius: 4px;
+		}
+
+		input[type=text]:focus, input[type=email]:focus { border: 1px solid lightblue; }
+
+
+		input[type=checkbox] {
+			vertical-align: middle;
+			color: #ffffff;
+			height: 1.15em;
+			width: 1.15em;
+			margin-left: 7px;
+			cursor: pointer;
+		}
+
+		select {
+			width: 50%;
+			margin-top: 8px;
+			padding: 8px 12px 8px 12px;
+			border: 1px solid transparent;
+			border-radius: 4px;
+			background: #fff;
+		}
+		select:focus { border: 1px solid lightblue; }
+
+		a {
+			text-decoration: underline;
+			margin-top: 6px;
+			padding-right: 0;
+			text-align: right;
+			color: lightblue;
+		}
+		a:hover { color: blue; }
+
+		input[type=submit] {
+			background: lightblue;
+			color: #fff;
+			text-transform: uppercase;
+			font-weight: 900;
+			padding: 10px 16px 10px 16px;
+			margin-top: 15px;
+			border: none;
+			border-radius: 6px;
+			box-shadow: none;
+		}
+		input[type=submit]:hover { background: blue; }
+
+		#submit-btn {
+      padding: 2rem;
+      float: right;
+			margin-right: 0;
+		}
+	}
+}
+
+#logo {
+	display: inline-block;
+	text-align: right;
+	margin-right: 20px;
+	margin-top: 20px;
+	float: left;
+
+	img { height: 35px; width: 135px; }
+	p { margin-right: 0; font-size: .8em; }
+}
+
+@media (max-width: 768px) {
+	#contact-us {
+		width: 100%;
+		margin-top: 0px;
+
+		form {
+			padding: 0 10px 20px 20px;
+
+			p { margin: 10px 10px 0 10px; }
+
+			input[type=submit] {
+				padding: 12px 55px 12px 55px;
+				margin: 15px auto;
+				display: block;
+				text-align: center;
+			}
+
+      select {
+        width: 100%;
+      }
+		}
+	}
+}
+.button {
+	background: blue;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	font-weight: 900;
+	padding: 10px 16px 10px 16px;
+	margin-top: 15px;
+	border: none;
+	border-radius: 6px;
+	box-shadow: none;
+	display: block;
+}
+.button:hover { background: navy; color: #fff; text-decoration: none; }
