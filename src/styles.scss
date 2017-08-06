@@ -1,3 +1,9 @@
+/* Roboto font import */
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+body {
+  font-family: 'Roboto'; }
+
 /* You can add global styles to this file, and also import other style files */
 @mixin keyframes($animationName) {
   @-webkit-keyframes #{$animationName} {
